@@ -1,2 +1,5 @@
 # News-App
-Projeto para prática e aprendizado
+
+App desenvolvido em Kotlin utilizado MVVM architecture, Navigation Component, Room, Retrofit,  e Coroutines.
+
+
