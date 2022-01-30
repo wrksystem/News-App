@@ -4,7 +4,7 @@ import com.example.newsapp.model.Article
 import com.example.newsapp.repository.db.ArticleDatabase
 import com.example.newsapp.repository.service.RetrofitClient
 
-class NewRepository(
+class NewsRepository(
     val db: ArticleDatabase
     ) {
     suspend fun getBreakingNews(countryCode : String, pageNumber: Int) =
